@@ -9,4 +9,6 @@ interface IDeviceManager {
      * and return values in AIDL.
      */
     int getFirmwareVersion();
+    void installPackage();
+    void uninstallPackage();
 }
